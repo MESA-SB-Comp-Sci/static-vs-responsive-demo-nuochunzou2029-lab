@@ -9,22 +9,22 @@ body {
 }
 
 h1 {
-  font-size: 60px; /* CHANGE TO: 5vw */
+  font-size: 5vw;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 30px; /* CHANGE TO: 2.5vw */
+  font-size: 2.5vw;
 }
 
 p {
-  font-size: 20px; /* CHANGE TO: 2vw */
+  font-size: 2vw;
   line-height: 1.6;
 }
 .hero {
-  height: 400px; /* CHANGE TO: 100vh */
-  background: #1a1a2e;
+  height: 100vh;
+  background: rgb(255, 132, 153);
   color: white;
 }
 
@@ -32,11 +32,35 @@ p {
   border: 5px solid gainsboro;
   margin: 5px;
   color: white;
-  height: 500px; /* CHANGE TO: 100vh */
+  height: 100vh; 
   background-color: #1a1a2e;
 }
 
-/* Compleate challenge down here */
+.box-yellow{
+  background-color: yellow;
+  width: 25%;
+}
+
+.box-green{
+  background-color: green;
+  width: 25%;
+}
+
+.box-blue{
+  background-color: blue;
+  width: 25%;
+}
+
+.box-red{
+  background-color: red;
+  width: 25%;
+}
+
+div{
+  display:inline-flex;
+}
+
+/* Complete challenge down here */
 
 
 
